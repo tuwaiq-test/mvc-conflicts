@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\b0c0a\\Source\\Repos\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj": {}
+    "D:\\Tuwaiq\\GitHub_Training\\Mvc\\mvc-crud-conflict\\mvc-crud-conflict.csproj": {}
   },
   "projects": {
-    "C:\\Users\\b0c0a\\Source\\Repos\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj": {
+    "D:\\Tuwaiq\\GitHub_Training\\Mvc\\mvc-crud-conflict\\mvc-crud-conflict.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\b0c0a\\Source\\Repos\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj",
+        "projectUniqueName": "D:\\Tuwaiq\\GitHub_Training\\Mvc\\mvc-crud-conflict\\mvc-crud-conflict.csproj",
         "projectName": "mvc-crud-conflict",
-        "projectPath": "C:\\Users\\b0c0a\\Source\\Repos\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj",
-        "packagesPath": "C:\\Users\\b0c0a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\b0c0a\\Source\\Repos\\mvc-conflicts\\mvc-crud-conflict\\obj\\",
+        "projectPath": "D:\\Tuwaiq\\GitHub_Training\\Mvc\\mvc-crud-conflict\\mvc-crud-conflict.csproj",
+        "packagesPath": "C:\\Users\\Ammar\\.nuget\\packages\\",
+        "outputPath": "D:\\Tuwaiq\\GitHub_Training\\Mvc\\mvc-crud-conflict\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\b0c0a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ammar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
