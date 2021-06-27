@@ -19,6 +19,7 @@ namespace mvc_crud_conflict.Controllers
         }
             public IActionResult Index()
         {
+            ViewData["Notes"] = notes;
             return View();
         }
     }
