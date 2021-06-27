@@ -30,5 +30,26 @@ namespace mvc_crud_conflict.Controllers
             notes.Remove(note);
             return RedirectToAction("Index");
         }
+
+        [HttpPost()]
+        public IActionResult Edit(int Id, string theNote)
+        {
+            var note = notes.ToList().Find(note => note.Id == Id);
+            if (note == null)
+                return BadRequest();
+            note.Note = theNote;
+            notes.RemoveAt(note.Id - 1);
+            notes.Insert(note.Id - 1, note);
+            return View(note);
+        }
+
+        [HttpGet()]
+        public IActionResult Edit(int id)
+        {
+            var note = notes.ToList().Find(note => note.Id == id);
+            if (note == null)
+                return BadRequest();
+            return View(note);
+        }
     }
 }

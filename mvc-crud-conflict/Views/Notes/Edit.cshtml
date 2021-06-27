@@ -1,0 +1,13 @@
+﻿@model NoteModel
+
+<center>
+    <form method="post" asp-action="Edit">
+
+        <label hidden="">Id </label>
+        <input hidden="" asp-action="Edit" asp-for="@Model.Id" value="@Model.Id" />
+
+        <label asp-for="@Model.Note">Note </label>
+        <input asp-action="Edit" asp-for="@Model.Note" value="@Model.Note" />
+        <button type="submit"> Edit</button>
+    </form>
+</center>
