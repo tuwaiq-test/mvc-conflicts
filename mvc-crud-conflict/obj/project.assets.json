@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SAFCSP\\.nuget\\packages\\": {}
+    "C:\\Users\\Ammar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SAFCSP\\Desktop\\dotNetBootcamp\\AspDotNet\\inClassActivity\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj",
+      "projectUniqueName": "D:\\Tuwaiq\\GitHub_Training\\letsTry\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj",
       "projectName": "mvc-crud-conflict",
-      "projectPath": "C:\\Users\\SAFCSP\\Desktop\\dotNetBootcamp\\AspDotNet\\inClassActivity\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj",
-      "packagesPath": "C:\\Users\\SAFCSP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SAFCSP\\Desktop\\dotNetBootcamp\\AspDotNet\\inClassActivity\\mvc-conflicts\\mvc-crud-conflict\\obj\\",
+      "projectPath": "D:\\Tuwaiq\\GitHub_Training\\letsTry\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj",
+      "packagesPath": "C:\\Users\\Ammar\\.nuget\\packages\\",
+      "outputPath": "D:\\Tuwaiq\\GitHub_Training\\letsTry\\mvc-conflicts\\mvc-crud-conflict\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SAFCSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ammar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

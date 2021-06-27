@@ -23,7 +23,7 @@ namespace mvc_crud_conflict.Controllers
             return View();
         }
 
-
+        [HttpPost]
          public IActionResult Delete(int id)
         {
             var note = notes.ToList().Find(a => a.Id == id);
