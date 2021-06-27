@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\b0c0a\\Source\\Repos\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj": {}
+    "C:\\Users\\SAFCSP\\Desktop\\dotNetBootcamp\\AspDotNet\\inClassActivity\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj": {}
   },
   "projects": {
-    "C:\\Users\\b0c0a\\Source\\Repos\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj": {
+    "C:\\Users\\SAFCSP\\Desktop\\dotNetBootcamp\\AspDotNet\\inClassActivity\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\b0c0a\\Source\\Repos\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj",
+        "projectUniqueName": "C:\\Users\\SAFCSP\\Desktop\\dotNetBootcamp\\AspDotNet\\inClassActivity\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj",
         "projectName": "mvc-crud-conflict",
-        "projectPath": "C:\\Users\\b0c0a\\Source\\Repos\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj",
-        "packagesPath": "C:\\Users\\b0c0a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\b0c0a\\Source\\Repos\\mvc-conflicts\\mvc-crud-conflict\\obj\\",
+        "projectPath": "C:\\Users\\SAFCSP\\Desktop\\dotNetBootcamp\\AspDotNet\\inClassActivity\\mvc-conflicts\\mvc-crud-conflict\\mvc-crud-conflict.csproj",
+        "packagesPath": "C:\\Users\\SAFCSP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SAFCSP\\Desktop\\dotNetBootcamp\\AspDotNet\\inClassActivity\\mvc-conflicts\\mvc-crud-conflict\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\b0c0a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SAFCSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
