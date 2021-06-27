@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using mvc_crud_conflict.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,15 @@ namespace mvc_crud_conflict.Controllers
 {
     public class NotesController : Controller
     {
-        public IActionResult Index()
+        public List<NoteModel> notes = new()
+        {
+            new NoteModel() { Id = 1, Note = "The first nete by Rio Dan", CreatedAt = DateTime.Now }
+        };
+        public NotesController()
+        { 
+        
+        }
+            public IActionResult Index()
         {
             return View();
         }
