@@ -22,5 +22,13 @@ namespace mvc_crud_conflict.Controllers
             ViewData["Notes"] = notes;
             return View();
         }
+
+
+         public IActionResult Delete(int id)
+        {
+            var note = notes.ToList().Find(a => a.Id == id);
+            notes.Remove(note);
+            return RedirectToAction("Index");
+        }
     }
 }
