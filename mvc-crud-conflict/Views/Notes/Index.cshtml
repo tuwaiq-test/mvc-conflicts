@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Notes";
+    List<NoteModel> notes = (List<NoteModel>)ViewData["Notes"];
+}
+
+<div class="text-center">
+<table>
+<thead>
+<th>ID</th>
+<th>Note</th>
+<th>Created At</th>
+</thead>
+<tbody>
+@foreach(var note in notes){
+    <tr>
+    <td>note.Id</td>
+    <td>note.Note</td>
+    <td>note.CreatedAt</td>
+    </tr>
+}
+</tbody>
+</table>
+    
+</div>
