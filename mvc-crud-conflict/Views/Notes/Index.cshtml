@@ -4,21 +4,31 @@
 }
 
 <div class="text-center">
-<table>
-<thead>
-<th>ID</th>
-<th>Note</th>
-<th>Created At</th>
-</thead>
-<tbody>
-@foreach(var note in notes){
-    <tr>
-    <td>note.Id</td>
-    <td>note.Note</td>
-    <td>note.CreatedAt</td>
-    </tr>
-}
-</tbody>
-</table>
-    
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Note</th>
+                <th>Created At</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var note in notes)
+            {
+                <tr>
+                    <td>@note.Id</td>
+                    <td>@note.Note</td>
+                    <td>@note.CreatedAt</td>
+                    <td>
+                        <div class="btn-group">
+                            <button class="btn btn-warning" asp-action="Edit" asp-route-id=@note.Id>Edit</button>
+                            <button class="btn btn-danger" asp-action="Delete" asp-route-id=@note.Id>Delete</button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
 </div>
